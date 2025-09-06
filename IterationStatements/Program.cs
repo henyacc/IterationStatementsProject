@@ -34,7 +34,7 @@ namespace IterationStatements
             } while (num < 100); //TODO - Continue the loop while "num" is less than 100
 
             //TODO - Create a while loop using the existing brackets as a template.
-            while (num < 200) //TODO - Continue the loop while "num" is less than 200
+            while(num < 200) //TODO - Continue the loop while "num" is less than 200
             {
                 num++;
                 // The existing brackets are placeholders for your loop code.
@@ -81,7 +81,9 @@ namespace IterationStatements
             for(int i = 199; i <= numbers.Count && i >= 0; i--)
             {
                 //TODO - Inside the loop, place numbers[i] inside of the Console.WriteLine() method
-                Console.WriteLine(numbers[i]); // Example placement of numbers[i] inside Console.WriteLine
+                
+                // Example placement of numbers[i] inside Console.WriteLine
+                Console.WriteLine(numbers[i]);
             }
 
             //------------End of exercise
